@@ -37,6 +37,10 @@ build/
 # Visual Studio Code
 .vscode/
 
+src/
+src/*
+*.js
+
 # Logs and temp files
 *.log
 *.tmp
