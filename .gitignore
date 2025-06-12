@@ -56,6 +56,6 @@ Thumbs.db
 
 # ------------------------------
 # Optional: Ignore src if needed (uncomment with caution)
-# src/
-# src/*
-# *.js
+ src/
+ src/*
+ *.js
