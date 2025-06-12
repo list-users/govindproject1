@@ -3,8 +3,8 @@ HELP.md
 
 # Maven target directories (ignore all, but allow specific target folders if needed)
 target/
-!**/src/main/**/target/
-!**/src/test/**/target/
+#!**/src/main/**/target/
+#!**/src/test/**/target/
 
 # Maven wrapper binary (don't track jar file)
 .mvn/wrapper/maven-wrapper.jar
@@ -31,8 +31,8 @@ target/
 /nbdist/
 /.nb-gradle/
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+#!**/src/main/**/build/
+#!**/src/test/**/build/
 
 # Visual Studio Code
 .vscode/
