@@ -1,49 +1,61 @@
+# ------------------------------
 # Help files
 HELP.md
 
-# Maven target directories (ignore all, but allow specific target folders if needed)
+# ------------------------------
+# Build output directories
 target/
+build/
+
+# If you need to include specific target/build folders, uncomment below
 #!**/src/main/**/target/
 #!**/src/test/**/target/
+#!**/src/main/**/build/
+#!**/src/test/**/build/
 
-# Maven wrapper binary (don't track jar file)
+# ------------------------------
+# Maven Wrapper
 .mvn/wrapper/maven-wrapper.jar
 
-# Eclipse / Spring Tool Suite (STS) specific files
-.apt_generated
+# ------------------------------
+# Eclipse / Spring Tool Suite
+.apt_generated/
 .classpath
 .factorypath
 .project
 .settings/
 .springBeans
-.sts4-cache
+.sts4-cache/
 
-# IntelliJ IDEA specific files
+# ------------------------------
+# IntelliJ IDEA
 .idea/
 *.iws
 *.iml
 *.ipr
 
-# NetBeans specific files
+# ------------------------------
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
-#!**/src/main/**/build/
-#!**/src/test/**/build/
 
+# ------------------------------
 # Visual Studio Code
 .vscode/
 
-src/
-src/*
-*.js
-
-# Logs and temp files
+# ------------------------------
+# Logs, temporary, and OS/system files
 *.log
 *.tmp
 *.swp
 .DS_Store
 Thumbs.db
+
+# ------------------------------
+# Optional: Ignore src if needed (uncomment with caution)
+# src/
+# src/*
+# *.js
